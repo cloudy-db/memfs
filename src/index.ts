@@ -1,7 +1,7 @@
 import {Stats} from './node';
 import {Volume as _Volume, StatWatcher, FSWatcher, toUnixTimestamp, IReadStream, IWriteStream} from './volume';
 import * as volume from './volume';
-const {fsSyncMethods, fsAsyncMethods} = require('fs-monkey/lib/util/lists');
+const {fsSyncMethods, fsAsyncMethods} = require('fs-monkey/src/util/lists');
 import {constants} from './constants';
 const {F_OK, R_OK, W_OK, X_OK} = constants;
 
